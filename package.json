@@ -1,0 +1,26 @@
+{
+  "name": "empty-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "release": "wnpm-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix-incubator/empty-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wix-incubator/empty-package/issues"
+  },
+  "homepage": "https://github.com/wix-incubator/empty-package#readme",
+  "devDependencies": {
+    "wnpm-ci": "^7.0.100"
+  }
+}
